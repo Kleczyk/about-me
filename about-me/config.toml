@@ -12,6 +12,20 @@ enableRobotsTXT = true
 
 
 [params]
+  defaultTheme = "dark"
+  EnableThemeToggle = true
+  EnableSharingButtons = true
+  EnableGlobalLanguageMenu = true
+  backgroundEffects = true
+  showPosts = true
+  tags = true
+  ReadMoreText = true
+  fontAwesome = { KitURL = "https://kit.fontawesome.com/0ed5cec925.js" }
+  ShowReadingTime = true
+  LastModDisplay = true
+  logo = { logoText = "About Daniel", logoCursorColor = "#ffffff" }
+  footer = { showVersion = true, socialIcons = true, author = true, rss = true, trademark = true, copyright = true, bottomText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>", "with <a href=\"https://github.com/coolapso/hugo-theme-hello-4s3ti\">Hello-friend-4s3ti</a>"] }
+
   author = { name = "Daniel [kleczyk] kleczyński" }
   description = "Lead Engineer for projects such as TrailBlazerML 🚀 and MyBroWarek 📊 in the Machine Learning Scientific Circle 🤖"
   githubUsername = "your-github-username"
@@ -19,6 +33,14 @@ enableRobotsTXT = true
 
   # Enable sharing buttons, if you like
   enableSharingButtons = true
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/kleczyk"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/daniel-kleczynski/"
 
 [menu]
   [[menu.main]]
