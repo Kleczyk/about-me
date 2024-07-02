@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello! What you find here? on About Daniel</title>
+    <link>https://kleczyk.github.io/</link>
+    <description>Recent content in Hello! What you find here? on About Daniel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All Rights Reserved</copyright><atom:link href="https://kleczyk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://kleczyk.github.io/about/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kleczyk.github.io/about/</guid>
+      <description>About Me I am a Lead Engineer for projects such as TrailBlazerML 🚀 and MyBroWarek 📊 in the Machine Learning Scientific Circle 🤖. Currently, I am a student at Rzeszow University of Technology.</description>
+    </item>
+    
+    <item>
+      <title>Achievements</title>
+      <link>https://kleczyk.github.io/achievements/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kleczyk.github.io/achievements/</guid>
+      <description>First place for the most interesting lecture First place for the most interesting lecture in the field of innovation in IT at the scientific conference &amp;ldquo;science and passion &amp;quot;
+organization of extra MLSUMMIT lecture at pi day conference  </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://kleczyk.github.io/projects/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kleczyk.github.io/projects/</guid>
+      <description>TrailBlazerML A brief description of the project.
+Decoding of EEG A brief description of the project.
+MyBrowarek A brief description of the project.
+JamBuser ChatKNML A brief description of the project.
+FaceTicket PrivacyProtector </description>
+    </item>
+    
+    <item>
+      <title>Science_research</title>
+      <link>https://kleczyk.github.io/science_research/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kleczyk.github.io/science_research/</guid>
+      <description>Exploring different approaches to the decoding of EEG project Creating a Polish benchmark for large language models to evaluate them </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kleczyk.github.io/stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kleczyk.github.io/stack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Biography</title>
+      <link>https://kleczyk.github.io/biography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kleczyk.github.io/biography/</guid>
+      <description>Early Childhood As a child, I was captivated by the James Bond films, particularly the scenes where Q would present Bond with the latest high-tech gadgets. These gadgets, which seemed impossible to exist, sparked my fascination and made me say &amp;ldquo;wow&amp;rdquo; every time. This early exposure to seemingly impossible innovations ignited my passion for new technologies and the desire to create groundbreaking solutions.
+Technical School / High School (2016-2020) I attended a technical school with a mechatronics profile.</description>
+    </item>
+    
+  </channel>
+</rss>
