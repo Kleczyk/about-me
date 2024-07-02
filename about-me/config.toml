@@ -1,0 +1,34 @@
+baseURL = "https://your-site-url/"
+languageCode = "en-us"
+title = "My Biography"
+theme = "hello-4s3ti"
+copyright = "All Rights Reserved"
+IsMultiLingual = true
+defaultContentLanguage = 'en-us'
+paginate     = 10
+
+# Enable RSS feed
+enableRobotsTXT = true
+
+
+[params]
+  author = { name = "Daniel [kleczyk] kleczyński" }
+  description = "Lead Engineer for projects such as TrailBlazerML 🚀 and MyBroWarek 📊 in the Machine Learning Scientific Circle 🤖"
+  githubUsername = "your-github-username"
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
