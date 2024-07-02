@@ -1,6 +1,6 @@
 baseURL = "https://your-site-url/"
 languageCode = "en-us"
-title = "My Biography"
+title = "About Daniel"
 theme = "hello-4s3ti"
 copyright = "All Rights Reserved"
 IsMultiLingual = true
@@ -27,12 +27,25 @@ enableRobotsTXT = true
   footer = { showVersion = true, socialIcons = true, author = true, rss = true, trademark = true, copyright = true, bottomText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>", "with <a href=\"https://github.com/coolapso/hugo-theme-hello-4s3ti\">Hello-friend-4s3ti</a>"] }
 
   author = { name = "Daniel [kleczyk] kleczyński" }
-  description = "Lead Engineer for projects such as TrailBlazerML 🚀 and MyBroWarek 📊 in the Machine Learning Scientific Circle 🤖"
-  githubUsername = "your-github-username"
+ githubUsername = "kleczyk"
+
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
   # Enable sharing buttons, if you like
   enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  keywords = "homepage, blog"
+  description = "Lead Engineer for projects such as TrailBlazerML 🚀 and MyBroWarek 📊 in the Machine Learning Scientific Circle 🤖"
+  images = [""]
+
 
 [[params.social]]
   name = "github"
@@ -42,15 +55,39 @@ enableRobotsTXT = true
   name = "linkedin"
   url = "https://www.linkedin.com/in/daniel-kleczynski/"
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 1
+#[menu]
+#  [[menu.main]]
+#    identifier = "about"
+#    name = "About"
+#    url = "/about/"
+#    weight = 1
 
   [[menu.main]]
     identifier = "projects"
     name = "Projects"
     url = "/projects/"
     weight = 2
+
+  [[menu.main]]
+    identifier = "biography"
+    name = "Biography"
+    url = "/biography/"
+    weight = 3
+
+    [[menu.main]]
+        identifier = "achievements"
+        name = "Achievements"
+        url = "/achievements/"
+        weight = 4
+
+     [[menu.main]]
+        identifier = "science_research"
+        name = "Research"
+        url = "/science_research/"
+        weight = 5
+
+    [[menu.main]]
+        identifier = "stack"
+        name = "Stack"
+        url = "/stack/"
+        weight = 6
