@@ -60,11 +60,11 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --source ./about-me  # Specify the source directory
+            --source ./  # Specify the source directory
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./about-me/public  # Specify the public directory
+          path: ./public  # Specify the public directory
 
   # Deployment job
   deploy:
